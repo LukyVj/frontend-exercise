@@ -17,7 +17,7 @@ _Props to [Anton Mikhaltsov](https://dribbble.com/mikhaltsov23) for the design._
 ## Steps
 
 ### Chapter 1
-Clone the project, and setup a simple structured web project containing the following files and folders: 
+**Fork** the project, and setup a simple structured web project containing the following files and folders: 
 ```
  index.html
  /styles
