@@ -4,7 +4,60 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <title>Frontend Exercise</title>
+    <title>ShoeBox</title>
+    <link rel="stylesheet" href="styles/normalize.css" />
+    <link rel="stylesheet" href="styles/style.css" />
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:600,700|Source+Sans+Pro:400,700&display=swap" rel="stylesheet">
   </head>
-  <body></body>
+  <body>
+    <div class="container">
+      <header>
+        <button id="toggle-menu">☰</button>
+        <div class="logo">
+          <img src="/images/logo.svg" width="138" height="21" />
+        </div>
+
+        <nav>
+          <ul>
+            <li><a href="#">Build a shoe box</a></li>
+            <li><a href="#">Offers & products</a></li>
+            <li><a href="#">Corporate Gifting</a></li>
+          </ul>
+        </nav>
+
+        <div class="settings">
+          <ul>
+            <li><a href="#"><img src="#" id="user-avatar"/></a></li>
+            <li><a href="#"><img src="#" id="cart"></a></li>
+          </ul>
+
+          <div id="user-card">
+              
+          </div>
+        </div>
+      </header>
+
+      <section class="hero">
+        <div class="hero-container">
+            <div class="hero-text">
+                <h1>Build a custom</h1>
+                <h1>Sweet Shoe Box</h1>
+                <a href="#" class="button">Start Building</a>
+            </div>
+        </div>
+      </section>
+
+      <section class="content">
+          <header>
+              <h2>Our top shoes</h2>
+              <div class="search">
+                <input id="searchbox"/>
+                <button><svg class="icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-search"><circle cx="11" cy="11" r="8"/><path d="M21 21l-4.35-4.35"/></svg></button>
+              </div>
+          </header>
+      </section>
+    </div>
+  </body>
+  <script src="scripts/cookies.js"></script>
+  <script src="scripts/app.js"></script>
 </html>
